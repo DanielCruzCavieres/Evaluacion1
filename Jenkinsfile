@@ -10,6 +10,7 @@ pipeline {
         // ¡IMPORTANTE!: En Jenkins, ve a "Manage Jenkins" > "Global Tool Configuration"
         // > "Maven" > "Add Maven" y asegúrate de que el 'Name' sea exactamente 'Maven-Default'.
         maven 'Maven-Default'
+        jdk 'JDK-21' 
     }
 
     // 3. Etapas: Define los pasos "en cascada" que te pide la evaluación.
